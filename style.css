@@ -1,0 +1,50 @@
+.nav 
+{
+    background-color: rgb(71, 73, 77); 
+}
+
+body
+{
+    font-family: 'Roboto', sans-serif;
+    background-image: url("https://images.unsplash.com/photo-1494707924465-e1426acb48cb?auto=format&fit=crop&w=2550&q=80");
+    background-size: 100% auto;
+}
+
+.navbar-brand 
+{
+    text-align: left; 
+    font-weight: 100; 
+    letter-spacing: -1px;
+}
+
+.jumbotron
+{
+    margin: 100px;
+    background-color: rgba(71, 73, 77, 0.6);
+    /* opacity: 0.8;  */
+    padding: 80px; 
+}
+
+.display-3
+{
+    font-weight: 500; 
+}
+
+.my-4
+{
+    background-color: rgb(209, 149, 38); 
+} 
+
+.jumbotron > p
+{
+    font-size: 30px; 
+    font-weight: 300; 
+    text-align: center; 
+}
+
+#countdown 
+{
+    font-size: 50px; 
+    text-align: center; 
+    padding: 15px; 
+}

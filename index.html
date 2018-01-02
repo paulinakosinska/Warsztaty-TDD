@@ -64,7 +64,7 @@
                     </div>
                 </div>
                 <p class="lead">
-                    <a class="btn btn-primary btn-lg" href="#" role="button">Zarejestruj się już dzisiaj!</a>
+                    <a class="btn btn-primary btn-lg" href="#register" role="button">Zarejestruj się już dzisiaj!</a>
 
 
                 </p>
@@ -78,41 +78,71 @@
 
     <div class="container marketing">
         <h2>Czego się nauczysz?</h2>
-        <!-- Three columns of text below the carousel -->
+
         <div class="row">
             <div class="col-lg-4">
-                <!-- <h3>
-                    <i class="material-icons">check</i>
-                </h3> -->
+
 
                 <h3>Dependency Injection</h3>
-                <p>Wprowadzenie do zbioru zasad SOLID, szczególnie Dependency Injection. Implementacja kontenera zalezności PHP-DI, poznanie zasady działania i praktyczne zastosowanie w kontekście testowania jednostkowego.</p>
+                <p>Wprowadzenie do zbioru zasad SOLID, szczególnie Dependency Injection. Implementacja kontenera zalezności
+                    PHP-DI, poznanie zasady działania i praktyczne zastosowanie w kontekście testowania jednostkowego.</p>
 
             </div>
-            <!-- /.col-lg-4 -->
+
             <div class="col-lg-4">
-                <!-- <h3>
-                    <i class="material-icons">check</i>
-                </h3> -->
+
 
                 <h3>Mock up</h3>
-                <p>Testowanie jednostkowe klas wymaga odseparowania zalezności. Mozna je "maskować" przy pomocy mock up'ów. Na warsztatach poznasz sposoby tworzenia efektywnych mocków.</p>
+                <p>Testowanie jednostkowe klas wymaga odseparowania zalezności. Mozna je "maskować" przy pomocy mock up'ów.
+                    Na warsztatach poznasz sposoby tworzenia efektywnych mocków.</p>
 
             </div>
-            <!-- /.col-lg-4 -->
+
             <div class="col-lg-4">
-                <!-- <h3>
-                    <i class="material-icons">check</i>
-                </h3> -->
+
 
                 <h3>Unit Tests</h3>
-                <p>Celem warsztatów będzie napisanie kompletnego serwisu w języku PHP, ze znacznym pokryciem testami jednostkowymi. Wykonanie takich testów pomoże zrozumieć i podsumować wymienione wcześniej pojęcia. Pokrycie zmierzymy przy pomocy biblioteki PHPUnit.</p>
+                <p>Celem warsztatów będzie napisanie kompletnego serwisu w języku PHP, ze znacznym pokryciem testami jednostkowymi.
+                    Wykonanie takich testów pomoże zrozumieć i podsumować wymienione wcześniej pojęcia. Pokrycie zmierzymy
+                    przy pomocy biblioteki PHPUnit.</p>
 
             </div>
-            <!-- /.col-lg-4 -->
-        </div>
-        <!-- /.row -->
 
+        </div>
+    </div>
+
+    <hr class="my-4" width="80%">
+
+    <section class="row justify-content-md-center" id="register">
+        <form class="col-md-6">
+            <div class="form-group">
+                <label>ADRES E-MAIL</label>
+                <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Adres e-mail">
+            </div>
+
+            <div class="form-group">
+                <label>IMIĘ</label>
+                <input type="name" class="form-control" aria-describedby="nameHelp" placeholder="Imię">
+
+            </div>
+
+            <div class="form-group">
+                <label>NAZWISKO</label>
+                <input type="lastname" class="form-control" aria-describedby="lastnameHelp" placeholder="Nazwisko">
+
+            </div>
+
+
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">WIADOMOŚĆ</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Jeśli masz jakieś pytania, zadaj je tutaj.</textarea>
+            </div>
+
+
+            <button type="submit" class="btn btn-primary">Zarejestruj</button>
+        </form>
+        <!-- /.row -->
+    </section>
 
 </body>
 

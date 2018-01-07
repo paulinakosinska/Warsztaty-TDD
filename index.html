@@ -8,6 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700,900&amp;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    <!-- fontawesome icons -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
 
     <!-- Bootstrap cdn -->
     <link rel="stylesheet" href="https://bootswatch.com/4/superhero/bootstrap.min.css" crossorigin="anonymous">
@@ -36,10 +38,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">O mnie</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Kontakt</a>
+                    <a class="nav-link" href="#learn">Czego się nauczysz?</a>
                 </li>
             </ul>
         </div>
@@ -76,7 +75,7 @@
     <div></div>
     <script src="script.js"></script>
 
-    <div class="container marketing">
+    <div id="learn" class="container marketing">
         <h2>Czego się nauczysz?</h2>
 
         <div class="row">
@@ -147,13 +146,40 @@
         <!-- /.row -->
     </section>
 
-    <footer class="footer">
-            <div class="container">
-              <span class="text-muted">2018 © Jakub Banaś | Realizacja: paulinakosinska.github.io</span>
+    <footer class="footer bg-dark">
+        <div class="row">
+            <div class="container col-md-6">
+                <span class="text-muted">2018 © Jakub Banaś | Realizacja: paulinakosinska.github.io</span>
             </div>
-          </footer>
+            <div class="col-md-6 d-flex justify-content-end">
+                <a href="https://www.facebook.com/BanasJakub" target="_blank">
+                    <i id="social-fb" class="fa fab fa-facebook-square fa-5x social"></i>
+                </a>
+                <a href="mailto:jakub.banas@icloud.com">
+                    <i id="social-em" class="fas fa-envelope-square fa-5x social"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/jakub-bana%C5%9B-885ba0ba/" target="_blank">
+                    <i id="social-li" class="fab fa-linkedin fa-5x social"></i>
+                </a>
+                <a href="https://github.com/jakubbanas" target="_blank">
+                    <i id="social-gh" class="fab fa-github-square fa-5x social"></i>
+                </a>
+                <!-- <a href="http://banas.xyz/" target="_blank">
+                    <i class="fas fa-globe fa-5x social"></i>
+                </a> -->
+            </div>
+        </div>
 
-    
+    </footer>
+
+    <!-- <footer class="footer">
+                <div class="social-area">
+                 <ul><li><a href="https://www.facebook.com/blackpizza?fref=ts" target="_blank" title="Join us on Facebook" class="shr-btn-facebook"><span>Facebook</span><i class="icon-facebook"></i></a></li><li><a href="http://instagram.com/blackpizzastudio" target="_blank" title="Join us on Instagram" class="shr-btn-instagram"><span>Instagram</span><i class="icon-instagram"></i></a></li><li><a href="https://www.behance.net/blackpizza" target="_blank" title="Join us on Behance" class="shr-btn-behance"><span>Behance</span><i class="icon-behance"></i></a></li><li><a href="https://soundcloud.com/dailydose-sound" target="_blank" title="Join us on Soundcloud" class="shr-btn-soundcloud"><span>Soundcloud</span><i class="icon-soundcloud"></i></a></li></ul>            </div>
+             <div class="credits">
+                 <p>©2017 <span class="footer-white">BlackPizza</span></p><img class="slice-footer" src="http://blackpizza.com/wp-content/uploads/2014/12/slice-pizza.png" alt="Pizz and love" />            </div>
+         </footer> -->
+
+
 
 </body>
 

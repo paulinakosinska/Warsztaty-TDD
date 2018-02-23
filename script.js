@@ -14,7 +14,7 @@
 //   }
 // }, 1000); 
 
-var target_date = new Date("Jan 25, 2018 17:00:00").getTime(); // set the countdown date
+var target_date = new Date("Mar 24, 2018 17:00:00").getTime(); // set the countdown date
 var days, hours, minutes, seconds; // variables for time units
 
 var countdown = document.getElementById("tiles"); // get tag element
